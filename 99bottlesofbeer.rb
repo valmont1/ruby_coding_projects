@@ -5,7 +5,7 @@ def bottles(of_beer, plural)
   puts "Take one down and pass it around, #{of_beer - 1} bottle#{plural} of beer on the wall!"
   puts " "
 end
- 
+ 
 99.downto(0) do |left|
   if left > 1
     bottles(left, "s")
